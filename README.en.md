@@ -43,6 +43,7 @@ The app uses ad-hoc signing and is not notarized with a Developer ID. If macOS b
 - A write requires an ACK and a matching response to a later query. Asynchronous settings are re-queried within a deadline; sending a packet alone never counts as success.
 - Manual control disconnection suppresses immediate reconnection during the current system connection.
 - Earbud spatial sound can conflict with high-quality mode. macOS negotiates the actual audio codec.
+- Some experimental switches are gated by local readback verification for the current firmware. A fresh installation may show them as awaiting verification.
 - Prompt **volume** and prompt **content/timbre** are separate capabilities. Content replacement is not implemented.
 
 ## Build
