@@ -1,0 +1,24 @@
+# SwiftPM / Xcode
+/.build/
+/.swiftpm/
+/DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Built application and release archives
+/dist/
+*.dmg
+*.zip
+
+# macOS metadata
+.DS_Store
+
+# Signing and local secrets
+*.p12
+*.cer
+*.mobileprovision
+.env
+.env.*
+
+.research/
+.test-build/
